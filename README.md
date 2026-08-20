@@ -8,9 +8,9 @@ AI-powered transformation of GIS PMO platform into a predictive delivery excelle
 
 ## 📌 Overview
 
-The **GIS PMO – Executive AI Decision Intelligence Platform** is a proposed AI-powered evolution of an existing **SharePoint-based GIS PMO platform**.
+The **GIS PMO – Executive AI Decision Intelligence Platform** is a proposed AI-powered evolution of GIS PMO platform**.
 
-The objective is not to replace the existing PMO website, but to introduce an **AI Intelligence Layer** that transforms project and portfolio data into:
+The objective is not to replace the existing PMO platform, but to introduce an **AI Intelligence Layer** that transforms project and portfolio data into:
 
 * Predictive insights
 * Early-warning signals
@@ -36,7 +36,7 @@ The initiative aims to move GIS PMO from a primarily **retrospective reporting a
 
 # Business Problem
 
-The existing GIS PMO SharePoint platform provides centralized visibility into projects, programs, milestones, risks, resources and financial information.
+The existing GIS PMO platform provides centralized visibility into projects, programs, milestones, risks, resources and financial information.
 
 However, traditional PMO reporting is largely **descriptive and retrospective**.
 
@@ -71,7 +71,7 @@ But increasingly needs answers to:
 
 The strategic question for GIS leadership is:
 
-> **How can AI transform the existing SharePoint-based GIS PMO from a reporting and governance platform into a predictive delivery-excellence and executive decision-intelligence platform?**
+> **How can AI transform GIS PMO from a reporting and governance platform into a predictive delivery-excellence and executive decision-intelligence platform?**
 
 The objective is to **augment the existing PMO investment with AI**, rather than create another standalone PMO portal.
 
@@ -103,7 +103,7 @@ The platform continuously analyzes trusted project and enterprise information an
 
 ```text
                  EXISTING GIS PMO
-              SharePoint Platform
+                     Platform
                        │
         ┌──────────────┼──────────────┐
         │              │              │
