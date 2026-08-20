@@ -79,7 +79,7 @@ The objective is to **augment the existing PMO investment with AI**, rather than
 
 # Proposed Solution
 
-The proposed solution is an **Executive AI Decision Intelligence Layer** integrated with the existing SharePoint-based GIS PMO.
+The proposed solution is an **Executive AI Decision Intelligence Layer** integrated with the existing GIS PMO.
 
 The platform combines:
 
