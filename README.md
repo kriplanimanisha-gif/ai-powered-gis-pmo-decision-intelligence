@@ -4,8 +4,7 @@ AI-powered transformation of GIS PMO platform into a predictive delivery excelle
 # GIS PMO – Executive AI Decision Intelligence Platform
 
 **Author:** Manisha Kriplani
-**Organization / Context:** GIS – Global IT Services, LAM Research
-**Focus:** AI-enabled PMO Delivery Excellence
+
 
 ## 📌 Overview
 
