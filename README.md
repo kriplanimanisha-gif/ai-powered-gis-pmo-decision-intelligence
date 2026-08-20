@@ -102,36 +102,52 @@ The platform continuously analyzes trusted project and enterprise information an
 # Solution Architecture
 
 ```text
-                 EXISTING GIS PMO
-                     Platform
-                       │
-        ┌──────────────┼──────────────┐
-        │              │              │
-   SharePoint       PMO Data      Documents &
-   Lists/Pages      & Dashboards   Knowledge
-        │              │              │
-        └──────────────┼──────────────┘
-                       ↓
-             DATA / INTEGRATION LAYER
-                       ↓
-              AI INTELLIGENCE LAYER
-        ┌──────────────┼──────────────┐
-        │              │              │
-   Predictive      GenAI / RAG     Scenario &
-   Analytics       AI Copilot      Simulation
-        │              │              │
-        └──────────────┼──────────────┘
-                       ↓
-          ENTERPRISE KNOWLEDGE & CONTEXT
-                       ↓
-           EXECUTIVE DECISION ENGINE
-        ┌──────────────┼──────────────┐
-        │              │              │
-    Dashboard       AI Copilot     Simulator
-        │              │              │
-        └──────────────┼──────────────┘
-                       ↓
-             PROACTIVE DECISIONS
+                  EXISTING GIS PMO PLATFORM
+                          │
+          ┌───────────────┼────────────────┐
+          │               │                │
+     SharePoint        PMO Data        Documents &
+     Lists / Pages    & Dashboards      Knowledge
+          │               │                │
+          └───────────────┼────────────────┘
+                          │
+                          │
+                    JIRA BOARD
+                          │
+          ┌───────────────┴────────────────┐
+          │                                │
+     Project Execution                Delivery Signals
+     • Sprint Progress                • Velocity
+     • Issue Status                   • Backlog Trends
+     • Dependencies                   • Blockers
+     • Stories / Tasks                • Cycle Time
+          │                                │
+          └───────────────┬────────────────┘
+                          ↓
+               DATA / INTEGRATION LAYER
+                          │
+                          ↓
+                AI INTELLIGENCE LAYER
+          ┌───────────────┼────────────────┐
+          │               │                │
+     Predictive       GenAI / RAG      Scenario &
+     Analytics        AI Copilot       Simulation
+          │               │                │
+          └───────────────┼────────────────┘
+                          ↓
+             ENTERPRISE KNOWLEDGE &
+                    CONTEXT LAYER
+                          │
+                          ↓
+              EXECUTIVE DECISION ENGINE
+          ┌───────────────┼────────────────┐
+          │               │                │
+      Executive       AI Copilot       Decision
+      Dashboard                        Simulator
+          │               │                │
+          └───────────────┼────────────────┘
+                          ↓
+                 PROACTIVE DECISIONS
 ```
 
 ### Architecture Visual
