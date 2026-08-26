@@ -733,32 +733,120 @@ AI should **augment PMO and executive decision-making rather than replace human 
 
 ## Phase 1 – Foundation | 0–3 Months
 
-* Integrate PMO data sources
-* Establish data quality standards
-* Build AI data layer
-* Introduce AI-generated executive summaries
+* Map all existing PMO data sources:
+* Planview
+* ADO
+* Jira
+* SharePoint
+* Existing PMO repositories
+Other GIS enterprise sources
+Leverage the ongoing Planview migration as a strategic opportunity to standardize:
+Project taxonomy
+Project IDs
+Milestones
+Status definitions
+Risks and issues
+Resource information
+Financial information
+Dependencies
+Establish data ownership and governance
+Define data quality standards
+Identify authoritative sources for each data domain
+Define API / integration strategy
+Establish security and access-control requirements
+Define AI governance, auditability and human-oversight principles
 
-## Phase 2 – Predictive PMO | 3–6 Months
+Outcome:
 
-* Project health prediction
-* Risk prediction
-* Schedule prediction
-* Early-warning alerts
+Trusted, governed and AI-ready PMO data foundation
 
-## Phase 3 – Decision Intelligence | 6–12 Months
+## Phase 2 – GenAI + RAG Knowledge Intelligence | 3–6 Months
 
-* Executive AI Copilot
-* Scenario simulation
-* Resource optimization
-* Portfolio recommendations
+Build the RAG and GenAI layer on top of the governed data foundation.
 
-## Phase 4 – Intelligent PMO | 12+ Months
+Connect Planview, ADO, Jira and SharePoint
+Build enterprise PMO knowledge ingestion pipeline
+Establish document and data chunking/indexing
+Implement vector / semantic search
+Implement RAG
+Establish source attribution and grounding
+Introduce natural-language PMO search
+Build initial Executive AI Copilot
+Generate AI-assisted:
+Project summaries
+Portfolio summaries
+Risk summaries
+Steering committee summaries
+Executive reports
+Enable cross-source questions such as:
+"Why is Project X Amber?"
+"What changed this month?"
+"What are the top portfolio risks?"
 
-Progress toward AI agents that can continuously:
+Outcome:
 
-> **Monitor → Detect → Analyze → Recommend → Trigger Workflows**
+One conversational intelligence layer across fragmented PMO information
 
-with appropriate human approval for high-impact decisions.
+
+## Phase 3 – AI-Assisted PMO Intelligence | 6–12 Months
+
+Once RAG is established, expand from retrieval and summarization to interpretation and exception intelligence.
+
+AI-assisted project health interpretation
+Cross-source project analysis
+Risk and exception intelligence
+Dependency intelligence
+Resource intelligence
+Financial intelligence
+Change-impact analysis
+Executive attention / exception management
+AI-generated recommendations based on available evidence
+Explainable insights with:
+Evidence
+Reasoning
+Confidence
+Source references
+
+For example:
+
+Project X is Amber because of delayed dependencies, unresolved risks and resource constraints.
+
+Rather than immediately claiming:
+
+Project X has an 82% probability of failure.
+
+Outcome:
+
+Move from "search and summarize" to "understand and explain."
+
+
+## Phase 4 – ML & Predictive PMO | 12+ Months
+
+Only after sufficient standardized and historical data has been accumulated should ML prediction become a major capability.
+
+Introduce:
+
+Predictive project health
+Risk probability prediction
+Schedule prediction
+Cost / budget prediction
+Resource demand forecasting
+Anomaly detection
+Dependency risk prediction
+Portfolio bottleneck prediction
+Early-warning alerts
+
+Example:
+
+78% probability of milestone delay within four weeks.
+
+The original roadmap placed project health, risk and schedule prediction in the 3–6 month phase.
+
+I would move these later because prediction quality depends on the quality, consistency and historical depth of the data foundation.
+
+Outcome:
+
+Move from "What is happening?" to "What is likely to happen?"
 
 ---
 
