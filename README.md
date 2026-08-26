@@ -305,7 +305,9 @@ Potential integrations include:
 
 ---
 
-🧠 AI Intelligence Layer — Phase 1: GenAI + RAG
+**🧠 AI Intelligence Layer — Phase 1: GenAI + RAG**
+
+
 **1. Enterprise PMO Knowledge Intelligence**
 
 The first objective is to make fragmented GIS PMO information searchable, connected and understandable through a trusted knowledge layer.
@@ -372,7 +374,7 @@ Answer with evidence, not just generated text.
 
 **🔎 3. Cross-Source PMO Intelligence**
 
-This should become one of the strongest Phase 1 capabilities, because your current problem is fragmentation.
+This should become one of the strongest Phase 1 capabilities, because current problem is fragmentation.
 
 GenAI can connect information that currently exists separately in Planview, ADO, Jira and SharePoint.
 
@@ -431,9 +433,6 @@ with links/evidence back to the underlying information.
 
 **🧩 5. AI-Assisted Project & Portfolio Health Interpretation**
 
-I would not call this "Predictive Project Health" in Phase 1.
-
-Instead:
 
 AI-Assisted Project Health
 
@@ -493,7 +492,6 @@ That becomes an ML capability.
 
 **👥 7. Resource & Financial Intelligence — Phase 1**
 
-I would also avoid calling these "predictive" initially.
 
 Resource Intelligence
 
@@ -529,7 +527,6 @@ Predict → Optimize → Recommend
 
 🔮 **8. Decision Support & What-If Analysis**
 
-I would retain the What-If concept, but modify its Phase 1 positioning.
 
 Rather than initially claiming that GenAI itself can accurately calculate complex outcomes, the first version can provide decision-support analysis using available data and defined business rules.
 
