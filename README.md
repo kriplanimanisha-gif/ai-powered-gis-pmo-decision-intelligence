@@ -155,7 +155,7 @@ The architecture follows a **top-down model**: enterprise systems remain at the 
 
 ### Architecture Visual
 
-![GIS PMO AI — Federated Data & AI Architecture](GIS PMO AI — Federated Data & AI Architecture.png)
+![GIS_PMO_AI_Federated_Data&AIArchitecture](GIS_PMO_AI_Federated_Data&AIArchitecture.png)
 
 ---
 
