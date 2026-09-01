@@ -153,38 +153,9 @@ The overall strategy consists of two tightly connected parts.
 
 The architecture follows a **top-down model**: enterprise systems remain at the foundation, a federated connectivity and governance fabric creates trusted access, a PMO semantic/knowledge layer creates contextual understanding, and AI sits above this foundation to generate intelligence and decisions.
 
-```mermaid
-flowchart TB
+### Architecture Visual
 
-    U["USERS & DECISION MAKERS<br/>Executives | PMO | Portfolio | Delivery"]
-
-    AI["EXECUTIVE AI COPILOT & DECISION INTELLIGENCE<br/><br/>Predict → Explain → Recommend → Simulate → Decide"]
-
-    INT["AI INTELLIGENCE LAYER<br/><br/>RAG | GenAI | Predictive ML | Explainable AI<br/>Recommendations | Scenario Simulation | AI Agents"]
-
-    SEM["PMO SEMANTIC / KNOWLEDGE LAYER<br/><br/>Programs | Projects | Milestones | Risks | Resources<br/>Financials | Applications | Dependencies | Outcomes<br/><br/>Knowledge Graph + Relationships + Context + Impact"]
-
-    GOV["TRUST & GOVERNANCE FABRIC<br/><br/>Ownership & Stewardship | Security & Access Control<br/>Classification | Data Quality | Standardization<br/>Lineage | Policies | Compliance | Audit | Monitoring"]
-
-    FED["FEDERATED CONNECTIVITY & ACCESS LAYER<br/><br/>APIs & Connectors | Pre-built Connectors<br/>Virtual Access | Selective Replication / Caching<br/>Event Streams | File & Content Connectors"]
-
-    SRC["EXISTING ENTERPRISE DATA PLATFORMS — SYSTEMS OF RECORD<br/><br/>ADO | Jira | SharePoint | ServiceNow | SAP<br/>Planview | Power BI | Rovo AI | Other Enterprise Systems"]
-
-    U --> AI
-    AI --> INT
-    INT --> SEM
-    SEM --> GOV
-    GOV --> FED
-    FED --> SRC
-
-    RA["CROSS-CUTTING FOUNDATION<br/>Security by Design | Responsible AI | Privacy & Ethics<br/>Human-in-the-Loop | Auditability | Compliance | Change Management"]
-
-    RA -.-> AI
-    RA -.-> INT
-    RA -.-> SEM
-    RA -.-> GOV
-    RA -.-> FED
-```
+![GIS PMO AI — Federated Data & AI Architecture](GIS PMO AI — Federated Data & AI Architecture.png)
 
 ---
 
