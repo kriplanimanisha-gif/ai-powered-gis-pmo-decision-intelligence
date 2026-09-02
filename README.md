@@ -170,6 +170,31 @@ Do not begin by copying everything into a new centralized data store.
 Instead:
 
 > **Federate First → Integrate Where Needed → Centralize Only When Justified**
+>
+> Simple example
+
+Suppose we have:
+
+Jira → project issues
+
+ADO → development information
+
+SAP → financial information
+
+ServiceNow → incidents
+
+
+For a question like:
+
+**"What is the current status of Project A?"**
+
+You may simply ask Jira/ADO for the latest information rather than copying all of that data into a central database.
+
+But suppose you want to:
+
+**"Analyze 5 years of project data across 500 projects and identify patterns that predict project delays."**
+
+Now it may make sense to bring selected historical data into a central analytical store, because that makes large-scale analysis and machine learning easier.
 
 ---
 
